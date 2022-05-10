@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	python "github.com/tliron/py4go"
-	"github.com/tliron/py4go/examples/hello-world/api"
+	python "github.com/kai5263499/py4go"
+	"github.com/kai5263499/py4go/examples/hello-world/api"
 )
 
 func version() {
