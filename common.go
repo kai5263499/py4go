@@ -6,4 +6,6 @@ package python
 //  https://www.datadoghq.com/blog/engineering/cgo-and-python/
 //  https://github.com/sbinet/go-python
 
+// #cgo pkg-config: python3-embed
+// #cgo LDFLAGS: -lpython3.8
 import "C"
